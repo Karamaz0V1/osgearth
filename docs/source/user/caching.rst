@@ -28,7 +28,7 @@ automatically activate caching on all your imagery and elevation layers::
 In code this would look like this::
 
     FileSystemCacheOptions cacheOptions;
-    cacheOptions.path() = ...;
+    cacheOptions.rootPath() = ...;
 
     MapOptions mapOptions;
     mapOptions.cache() = cacheOptions;
